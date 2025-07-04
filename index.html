@@ -16,7 +16,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Snow | One Page Agency</title>
+    <title>Snow | Portfolio</title>
 
     <meta name="description" content="Snow - Clean & Minimal Portfolio HTML template.">
     <meta name="keywords" content="portfolio, clean, minimal, blog, template, portfolio website">
@@ -29,8 +29,9 @@
     <!-- START: Styles -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet" type="text/css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700"
+        rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="assets/css/combined.css">
 
     <!-- END: Styles -->
@@ -39,36 +40,36 @@
 
 </head>
 
+
 <body>
 
 
 
 
-    <header class="nk-header">
+    <header class="nk-header nk-header-opaque">
         <!--
         START: Navbar
     -->
-        <nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-transparent nk-navbar-white-text-on-top">
+        <nav class="nk-navbar nk-navbar-top">
             <div class="container">
                 <div class="nk-nav-table">
-                    <a href="index.html" class="nk-nav-logo">
-                        <img src="assets/images/logo-light.svg" alt="" width="85" class="nk-nav-logo-onscroll">
-                        <img src="assets/images/logo.svg" alt="" width="85">
+                    <a href="about.html" class="nk-nav-logo">
+                        Zorica Zafirovska
                     </a>
 
                     <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
                         <li>
-                            <a href="index.html#about">About</a>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="active">
+                            <a href="index.html">Portfolio</a>
                         </li>
                         <li>
-                            <a href="index.html#contact">Contact</a>
+                            <a href="about.html#contact">Contact</a>
                         </li>
-                        <li>
-                            <a href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
+                        <!-- <li>
                             <a href="blog.html">Blog</a>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <ul class="nk-nav nk-nav-right nk-nav-icons">
@@ -148,153 +149,59 @@
 
     <div class="nk-main">
 
-        <!-- START: Header Title -->
-        <div class="nk-header-title nk-header-title-full">
-            <div class="bg-image">
-                <div style="background-image: url('assets/images/home-7.jpg');"></div>
-                <div class="bg-image-overlay" style="background-color: rgba(12, 12, 12, 0.6);"></div>
-            </div>
-            <div class="nk-header-table">
-                <div class="nk-header-table-cell">
-                    <div class="container">
-
-                        <h2 class="nk-subtitle text-white">New Branding Agency</h2>
 
 
-                        <h1 class="nk-title display-3 text-white">We are about to change the way
-                            <br>
-                            <em class="fw-400">you publish on the web</em>
-                        </h1>
 
-
-                        <div class="nk-gap"></div>
-                        <div class="nk-header-text text-white">
-                            <div class="nk-gap-4"></div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <a class="nk-header-title-scroll-down text-white" href="#nk-header-title-scroll-down">
-                    <span class="pe-7s-angle-down"></span>
+        <div class="container">
+            <!-- START: Filter -->
+            <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+                <a href="#nk-toggle-filter">
+                    <span class="nk-icon-squares"></span>
                 </a>
             </div>
+            <ul class="nk-isotope-filter">
+                <li class="active" data-filter="*">All</li>
+                <li data-filter="1. 99_ Natural, installation Magaza, Bitola">1. 99_ Natural</li>
+                <li data-filter="2. Pocketpedia of Human Trafficking, Book cafe Magor">2. Pocketpedia of Human
+                    Trafficking</li>
+                <li data-filter="3. Welcome on board_MALA GALERIJA, Skopje">3. Welcome on board</li>
+                <li data-filter="4. Temporary-positional reexaminations">4. Temporary-positional reexaminations</li>
+                <li data-filter="5. I am abused_photo Velimir Zernovski">5. I am abused</li>
+                <li data-filter="6. Behind the Red Ribbon project">6. Behind the Red Ribbon</li>
+                <li data-filter="7. Define and redefine yourself">7. Define and redefine yourself</li>
+                <li data-filter="8. Border Crossing_Idio gallery, New York curated by Natasha Prljevic">8. Border
+                    Crossing</li>
+                <li data-filter="9. Personal-Impersonal">9. Personal-Impersonal</li>
+                <li data-filter="10. How deep is our need MOMI exhibition at Faculty of Fine Arts Gallery">10. How deep
+                    is our need</li>
+                <li data-filter="11. Unspoken Embrodieries_The Event of A Thread-Skopje">11. Unspoken Embrodieries</li>
+                <li data-filter="12. _Spaces of placelessness__oT Gallery Berlin photos by Ivana Sidzimovska">12. Spaces
+                    of placelessness</li>
+                <li data-filter="13. Gallery of the Removed, Discarded, Lost and Found">13. Gallery of the Removed</li>
+                <li data-filter="14. _Grow me, water me, caress me_">14. Grow me, water me, caress me</li>
+                <li data-filter="15. Invisibility of Presence_ Kavadarci Gallery Museum">15. Invisibility of Presence
+                </li>
+                <li data-filter="16. Tea and Community Talks_Zurih Festival PERFORMANCE REIHE NEU-OERLIKON">16. Tea and
+                    Community Talks</li>
+                <li data-filter="17. On the Edge_performance_Air Vishnji residence">17. On the Edge</li>
+                <li data-filter="18. A Tour of Discontent_Landscape of Anxiety exhibition at MoCA-Skopje">18. A Tour of
+                    Discontent</li>
+                <li
+                    data-filter="19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro">
+                    19. Corners of Intimacy</li>
+                <li data-filter="20. Sprouting branches opening gates">20. Sprouting branches opening gates</li>
+                <li data-filter="21. Why Bostanie project, collaborative work at Mala Stanica National gallery">21. Why
+                    Bostanie</li>
+            </ul>
+            <!-- END: Filter -->
 
-        </div>
-
-        <div id="nk-header-title-scroll-down"></div>
-
-        <!-- END: Header Title -->
-
-
-
-
-
-        <!-- START: About Our Agency -->
-        <div class="bg-white" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2 text-xs-center">
-                        <div class="nk-gap-4 mt-9"></div>
-
-                        <h2 class="display-4">About Our Agency</h2>
-                        <div class="nk-gap mnt-5"></div>
-
-                        <p>We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps. Clever use of technology and lean processes enable us to work faster and smarter.
-                        </p>
-
-                        <img src="assets/images/about-me-signature.png" alt="" class="nk-img-fit">
-
-                        <div class="nk-gap-4 mt-25"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END: About Our Agency -->
-
-        <!-- START: Features -->
-        <div class="nk-box bg-dark-1 text-white">
-            <div class="bg-image bg-image-parallax" style="background-image: url('assets/images/bg-pattern.jpg');"></div>
-            <div class="nk-gap-5 mnt-6"></div>
-            <div class="container">
-                <div class="row vertical-gap">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="nk-ibox-1">
-                            <div class="nk-ibox-icon">
-                                <span class="pe-7s-portfolio"></span>
-                            </div>
-                            <div class="nk-ibox-cont">
-                                <div class="nk-ibox-title">548</div>
-                                <div class="nk-ibox-text">Projects Completed</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="nk-ibox-1">
-                            <div class="nk-ibox-icon">
-                                <span class="pe-7s-clock"></span>
-                            </div>
-                            <div class="nk-ibox-cont">
-                                <div class="nk-ibox-title">1465</div>
-                                <div class="nk-ibox-text">Working Hours</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="nk-ibox-1">
-                            <div class="nk-ibox-icon">
-                                <span class="pe-7s-star"></span>
-                            </div>
-                            <div class="nk-ibox-cont">
-                                <div class="nk-ibox-title">612</div>
-                                <div class="nk-ibox-text">Positive Feedbacks</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="nk-ibox-1">
-                            <div class="nk-ibox-icon">
-                                <span class="pe-7s-like"></span>
-                            </div>
-                            <div class="nk-ibox-cont">
-                                <div class="nk-ibox-title">735</div>
-                                <div class="nk-ibox-text">Happy Clients</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="nk-gap-5 mnt-6"></div>
-        </div>
-        <!-- END: Features -->
-
-        <!-- START: Portfolio -->
-        <div class="nk-box bg-white" id="projects">
-            <div class="nk-gap-4 mt-5"></div>
-
-            <h2 class="text-xs-center display-4">Best Projects</h2>
-
-            <div class="nk-gap mnt-6"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="text-xs-center">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nk-gap-2 mt-12"></div>
-            <div class="container">
             <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
 
 
-                <div class="nk-isotope-item" data-filter="Mockup">
+                <!--                 <div class="nk-isotope-item" data-filter="Mockup">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="assets/images/portfolio-7-sm.jpg"></a>
                         <div class="nk-portfolio-item-image">
                             <div style="background-image: url('assets/images/portfolio-7-sm.jpg');"></div>
                         </div>
@@ -306,11 +213,12 @@
                         </div>
                     </div>
                 </div>
+ -->
 
-
-                <div class="nk-isotope-item" data-filter="Print">
+                <!--                 <div class="nk-isotope-item" data-filter="Print">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="assets/images/portfolio-4-sm.jpg"></a>
                         <div class="nk-portfolio-item-image">
                             <div style="background-image: url('assets/images/portfolio-4-sm.jpg');"></div>
                         </div>
@@ -321,449 +229,722 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
+                <!-- 1. -->
 
-                <div class="nk-isotope-item" data-filter="Branding">
+                <div class="nk-isotope-item" data-filter="1. 99_ Natural, installation Magaza, Bitola">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/1. 99_ Natural, installation Magaza, Bitola/flyer design zz.jpg"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-5-sm.jpg');"></div>
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/1. 99_ Natural, installation Magaza, Bitola/flyer design zz.jpg');">
+                            </div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Minimal Bag</h2>
-                                <div class="portfolio-item-category">Branding</div>
+                                <h2 class="portfolio-item-title h3">Magaza, Bitola</h2>
+                                <div class="portfolio-item-category">Flyer Design</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nk-isotope-item" data-filter="1. 99_ Natural, installation Magaza, Bitola">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/1. 99_ Natural, installation Magaza, Bitola/installation zz.1.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/1. 99_ Natural, installation Magaza, Bitola/installation\ zz.1.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Magaza, Bitola</h2>
+                                <div class="portfolio-item-category">Natural Installation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nk-isotope-item" data-filter="1. 99_ Natural, installation Magaza, Bitola">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/1. 99_ Natural, installation Magaza, Bitola/installation zz.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/1. 99_ Natural, installation Magaza, Bitola/installation zz.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Magaza, Bitola</h2>
+                                <div class="portfolio-item-category">Natural Installation</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="Design">
+                <!-- 2. -->
+
+                <div class="nk-isotope-item" data-filter="2. Pocketpedia of Human Trafficking, Book cafe Magor">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/2. Pocketpedia of Human Trafficking, Book cafe Magor/pocketpedia_photo Tomislav Georgiev (2).JPG"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-9-sm.jpg');"></div>
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/2. Pocketpedia of Human Trafficking, Book cafe Magor/pocketpedia_photo Tomislav Georgiev (2).JPG');">
+                            </div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Clean &amp; Groovy</h2>
-                                <div class="portfolio-item-category">Design</div>
+                                <h2 class="portfolio-item-title h3">Pocketpedia of Human Trafficking</h2>
+                                <div class="portfolio-item-category">Book Cafe Magor</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nk-isotope-item" data-filter="3. Welcome on board_MALA GALERIJA, Skopje">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/3. Welcome on board_MALA GALERIJA, Skopje/welcome on board_photo zz.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/3. Welcome on board_MALA GALERIJA, Skopje/welcome on board_photo zz.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Welcome on board</h2>
+                                <div class="portfolio-item-category">MALA GALERIJA, Skopje</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nk-isotope-item" data-filter="4. Temporary-positional reexaminations">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/4. Temporary-positional reexaminations/Temporary-positional reexaminations at Noble Loyd Noble rig_video still by zz 1.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/4. Temporary-positional reexaminations/Temporary-positional reexaminations at Noble Loyd Noble rig_video still by zz 1.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Temporary-positional reexaminations</h2>
+                                <div class="portfolio-item-category">Noble Loyd Noble rig</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="4. Temporary-positional reexaminations">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/4. Temporary-positional reexaminations/Temporary-positional reexaminations at Noble Lloyd Noble rig_video still by zz.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/4. Temporary-positional reexaminations/Temporary-positional reexaminations at Noble Lloyd Noble rig_video still by zz.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Temporary-positional reexaminations</h2>
+                                <div class="portfolio-item-category">Noble Lloyd Noble rig</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="5. I am abused_photo Velimir Zernovski">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/5. I am abused_photo Velimir Zernovski/abused_street Macedonia.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/5. I am abused_photo Velimir Zernovski/abused_street Macedonia.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">I am abused</h2>
+                                <div class="portfolio-item-category">Photo Velimir Zernovski</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="6. Behind the Red Ribbon project">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/6. Behind the Red Ribbon project/a crane.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/6. Behind the Red Ribbon project/a crane.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Behind the Red Ribbon</h2>
+                                <div class="portfolio-item-category">A Crane</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="6. Behind the Red Ribbon project">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/6. Behind the Red Ribbon project/concrete breaker, gallery kora.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/6. Behind the Red Ribbon project/concrete breaker, gallery kora.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Behind the Red Ribbon</h2>
+                                <div class="portfolio-item-category">Gallery Kora</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="Design">
+                <!-- 2. -->
+
+                <div class="nk-isotope-item" data-filter="7. Define and redefine yourself">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/7. Define and redefine yourself/others.jpg"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-3-sm.jpg');"></div>
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/7. Define and redefine yourself/others.jpg');">
+                            </div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Minimal Mobile App</h2>
-                                <div class="portfolio-item-category">Design</div>
+                                <h2 class="portfolio-item-title h3">Define and redefine yourself</h2>
+                                <div class="portfolio-item-category">Others</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="8. Border Crossing_Idio gallery, New York curated by Natasha Prljevic">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/8. Border Crossing_Idio gallery, New York curated by Natasha Prljevic/Idio gallery, NYork photo Natasha Prljevic.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/8. Border Crossing_Idio gallery, New York curated by Natasha Prljevic/Idio gallery, NYork photo Natasha Prljevic.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Border Crossing</h2>
+                                <div class="portfolio-item-category">Idio gallery, New York</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="9. Personal-Impersonal">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/9. Personal-Impersonal/dissembled methods of violence_installation at SIA gallery space_photo Jana Sajkovska.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/9. Personal-Impersonal/dissembled methods of violence_installation at SIA gallery space_photo Jana Sajkovska.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Personal-Impersonal</h2>
+                                <div class="portfolio-item-category">SIA gallery space</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="9. Personal-Impersonal">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/9. Personal-Impersonal/installation of the reminding notepads in SIA gallery space_photo Jana Sajkovska.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/9. Personal-Impersonal/installation of the reminding notepads in SIA gallery space_photo Jana Sajkovska.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Personal-Impersonal</h2>
+                                <div class="portfolio-item-category">Reminding Notepads</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="9. Personal-Impersonal">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/9. Personal-Impersonal/reminding notepad_photo zz.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/9. Personal-Impersonal/reminding notepad_photo zz.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Personal-Impersonal</h2>
+                                <div class="portfolio-item-category">Reminding Notepad</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="Print">
+                <!-- 2. -->
+
+                <div class="nk-isotope-item"
+                    data-filter="10. How deep is our need MOMI exhibition at Faculty of Fine Arts Gallery">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/10. How deep is our need MOMI exhibition at Faculty of Fine Arts Gallery/North Sea seascape_ photo by zz.jpg"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-8-sm.jpg');"></div>
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/10. How deep is our need MOMI exhibition at Faculty of Fine Arts Gallery/North Sea seascape_ photo by zz.jpg');">
+                            </div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">White T-Shirt</h2>
-                                <div class="portfolio-item-category">Print</div>
+                                <h2 class="portfolio-item-title h3">How deep is our need</h2>
+                                <div class="portfolio-item-category">MOMI exhibition</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="11. Unspoken Embrodieries_The Event of A Thread-Skopje">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/11. Unspoken Embrodieries_The Event of A Thread-Skopje/Unspoken Embroideries 2016_photo Maja Janeva Ilieva (2).JPG"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/11. Unspoken Embrodieries_The Event of A Thread-Skopje/Unspoken Embroideries 2016_photo Maja Janeva Ilieva (2).JPG');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Unspoken Embroideries</h2>
+                                <div class="portfolio-item-category">The Event of A Thread-Skopje</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="11. Unspoken Embrodieries_The Event of A Thread-Skopje">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/11. Unspoken Embrodieries_The Event of A Thread-Skopje/Unspoken Embroideries 2016_photo Maja Janeva Ilieva.JPG"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/11. Unspoken Embrodieries_The Event of A Thread-Skopje/Unspoken Embroideries 2016_photo Maja Janeva Ilieva.JPG');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Unspoken Embroideries</h2>
+                                <div class="portfolio-item-category">The Event of A Thread-Skopje</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="11. Unspoken Embrodieries_The Event of A Thread-Skopje">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/11. Unspoken Embrodieries_The Event of A Thread-Skopje/Unspoken Embroidery 2014_photo zz.JPG"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/11. Unspoken Embrodieries_The Event of A Thread-Skopje/Unspoken Embroidery 2014_photo zz.JPG');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Unspoken Embroideries</h2>
+                                <div class="portfolio-item-category">2014</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="12. _Spaces of placelessness__oT Gallery Berlin photos by Ivana Sidzimovska">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/12. _Spaces of placelessness__oT Gallery Berlin photos by Ivana Sidzimovska/oT Gallery Berlin photos by Ivana Sidzimovska.png"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/12. _Spaces of placelessness__oT Gallery Berlin photos by Ivana Sidzimovska/oT Gallery Berlin photos by Ivana Sidzimovska.png');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Spaces of placelessness</h2>
+                                <div class="portfolio-item-category">oT Gallery Berlin</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="13. Gallery of the Removed, Discarded, Lost and Found">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/13. Gallery of the Removed, Discarded, Lost and Found/YCC Gallery Photos Denis Saraginovski.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/13. Gallery of the Removed, Discarded, Lost and Found/YCC Gallery Photos Denis Saraginovski.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Gallery of the Removed, Discarded, Lost and Found
+                                </h2>
+                                <div class="portfolio-item-category">YCC Gallery</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="14. _Grow me, water me, caress me_">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/14. _Grow me, water me, caress me_/Photo Sofia Grigoriadou.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/14. _Grow me, water me, caress me_/Photo Sofia Grigoriadou.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Grow me, water me, caress me</h2>
+                                <div class="portfolio-item-category">Photo Sofia Grigoriadou</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="15. Invisibility of Presence_ Kavadarci Gallery Museum">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/15. Invisibility of Presence_ Kavadarci Gallery Museum/Ohrid valley_photo ZZ.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/15. Invisibility of Presence_ Kavadarci Gallery Museum/Ohrid valley_photo ZZ.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Invisibility of Presence</h2>
+                                <div class="portfolio-item-category">Ohrid valley</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="15. Invisibility of Presence_ Kavadarci Gallery Museum">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/15. Invisibility of Presence_ Kavadarci Gallery Museum/Vishnji residence_Invisibility of Presence_photos from the project ZZ.png"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/15. Invisibility of Presence_ Kavadarci Gallery Museum/Vishnji residence_Invisibility of Presence_photos from the project ZZ.png');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Invisibility of Presence</h2>
+                                <div class="portfolio-item-category">Vishnji residence</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="16. Tea and Community Talks_Zurih Festival PERFORMANCE REIHE NEU-OERLIKON">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/16. Tea and Community Talks_Zurih Festival PERFORMANCE REIHE NEU-OERLIKON/Tea and Community Talks_photo Markus Goessi.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/16. Tea and Community Talks_Zurih Festival PERFORMANCE REIHE NEU-OERLIKON/Tea and Community Talks_photo Markus Goessi.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Tea and Community Talks</h2>
+                                <div class="portfolio-item-category">Photo Markus Goessi</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="16. Tea and Community Talks_Zurih Festival PERFORMANCE REIHE NEU-OERLIKON">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/16. Tea and Community Talks_Zurih Festival PERFORMANCE REIHE NEU-OERLIKON/Tea and Community Talks_photo Markus Goessi1.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/16. Tea and Community Talks_Zurih Festival PERFORMANCE REIHE NEU-OERLIKON/Tea and Community Talks_photo Markus Goessi1.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Tea and Community Talks</h2>
+                                <div class="portfolio-item-category">Photo Markus Goessi</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="17. On the Edge_performance_Air Vishnji residence">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/17. On the Edge_performance_Air Vishnji residence/September 2022, Vishnji residence_on the edge_performans and video still by zz together with Tijana Cvetkovic(1).jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/17. On the Edge_performance_Air Vishnji residence/September 2022, Vishnji residence_on the edge_performans and video still by zz together with Tijana Cvetkovic(1).jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">On the Edge</h2>
+                                <div class="portfolio-item-category">Vishnji residence</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="17. On the Edge_performance_Air Vishnji residence">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/17. On the Edge_performance_Air Vishnji residence/September 2022, Vishnji residence_on the edge_performans and video still by zz together with Tijana Cvetkovic.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/17. On the Edge_performance_Air Vishnji residence/September 2022, Vishnji residence_on the edge_performans and video still by zz together with Tijana Cvetkovic.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">On the Edge</h2>
+                                <div class="portfolio-item-category">Vishnji residence</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="18. A Tour of Discontent_Landscape of Anxiety exhibition at MoCA-Skopje">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/18. A Tour of Discontent_Landscape of Anxiety exhibition at MoCA-Skopje/Tour of Discontent_Simona Dimkovska guide_at MoCA-Skopje_photo Maja Janevska-Ilieva (1).jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/18. A Tour of Discontent_Landscape of Anxiety exhibition at MoCA-Skopje/Tour of Discontent_Simona Dimkovska guide_at MoCA-Skopje_photo Maja Janevska-Ilieva (1).jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">A Tour of Discontent</h2>
+                                <div class="portfolio-item-category">MoCA-Skopje</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="18. A Tour of Discontent_Landscape of Anxiety exhibition at MoCA-Skopje">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/18. A Tour of Discontent_Landscape of Anxiety exhibition at MoCA-Skopje/Tour of Discontent_Simona Dimkovska guide_at MoCA-Skopje_photo Maja Janevska-Ilieva.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/18. A Tour of Discontent_Landscape of Anxiety exhibition at MoCA-Skopje/Tour of Discontent_Simona Dimkovska guide_at MoCA-Skopje_photo Maja Janevska-Ilieva.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">A Tour of Discontent</h2>
+                                <div class="portfolio-item-category">MoCA-Skopje</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro/Corners of Intimacy 2023-2024_collective installation__photo zz  (3).jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro/Corners of Intimacy 2023-2024_collective installation__photo zz  (3).jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Corners of Intimacy</h2>
+                                <div class="portfolio-item-category">In Constant Motion exhibition</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro/Corners of Intimacy 2023-2024_collective installation__photo zz  (4).jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro/Corners of Intimacy 2023-2024_collective installation__photo zz  (4).jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Corners of Intimacy</h2>
+                                <div class="portfolio-item-category">In Constant Motion exhibition</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro/Corners of Intimacy 2023-2024_collective installation__photo zz  (5).jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro/Corners of Intimacy 2023-2024_collective installation__photo zz  (5).jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Corners of Intimacy</h2>
+                                <div class="portfolio-item-category">In Constant Motion exhibition</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro/Corners of Intimacy 2023-2024_collective installation_photo zz (2).jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/19. Corners of Intimacy 2023-2024_collective installation_In Constant Motion exhibition_SCS Center Jadro/Corners of Intimacy 2023-2024_collective installation_photo zz (2).jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Corners of Intimacy</h2>
+                                <div class="portfolio-item-category">In Constant Motion exhibition</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="20. Sprouting branches opening gates">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/20. Sprouting branches opening gates/_photo zz (2).jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/20. Sprouting branches opening gates/_photo zz (2).jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Sprouting branches opening gates</h2>
+                                <div class="portfolio-item-category">Photo zz</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="20. Sprouting branches opening gates">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/20. Sprouting branches opening gates/collective works_concept K Wenzel_photo zz.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/20. Sprouting branches opening gates/collective works_concept K Wenzel_photo zz.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Sprouting branches opening gates</h2>
+                                <div class="portfolio-item-category">Concept K Wenzel</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="21. Why Bostanie project, collaborative work at Mala Stanica National gallery">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/21. Why Bostanie project, collaborative work at Mala Stanica National gallery/Video by Kiril Shentevski installation in collaboration with pupils from Kole Nedelkovski_.JPG"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/21. Why Bostanie project, collaborative work at Mala Stanica National gallery/Video by Kiril Shentevski installation in collaboration with pupils from Kole Nedelkovski_.JPG');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Why Bostanie project</h2>
+                                <div class="portfolio-item-category">Kole Nedelkovski</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="21. Why Bostanie project, collaborative work at Mala Stanica National gallery">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/21. Why Bostanie project, collaborative work at Mala Stanica National gallery/Video by Kiril Shentevski, installation in collaboration with pupils from Kole Nedelkovski.JPG"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/21. Why Bostanie project, collaborative work at Mala Stanica National gallery/Video by Kiril Shentevski, installation in collaboration with pupils from Kole Nedelkovski.JPG');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Why Bostanie project</h2>
+                                <div class="portfolio-item-category">Kole Nedelkovski</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item"
+                    data-filter="21. Why Bostanie project, collaborative work at Mala Stanica National gallery">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="#" class="nk-portfolio-item-link portfolio-modal-trigger"
+                            data-img="zorica zafirovska_secondary archive final/21. Why Bostanie project, collaborative work at Mala Stanica National gallery/installation in collaboration with pupils from Kole Nedelkovski_photo Hristina Zafirovska.jpg"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div
+                                style="background-image: url('zorica zafirovska_secondary archive final/21. Why Bostanie project, collaborative work at Mala Stanica National gallery/installation in collaboration with pupils from Kole Nedelkovski_photo Hristina Zafirovska.jpg');">
+                            </div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Why Bostanie project</h2>
+                                <div class="portfolio-item-category">Photo Hristina Zafirovska</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="Branding">
-                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-2-sm.jpg');"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Business Card</h2>
-                                <div class="portfolio-item-category">Branding</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- 2. -->
 
 
-                <div class="nk-isotope-item" data-filter="Photography">
-                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-6-sm.jpg');"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Heja Stockholm</h2>
-                                <div class="portfolio-item-category">Photography</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
-                <div class="nk-isotope-item" data-filter="Photography">
-                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-12-sm.jpg');"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Paper Bag</h2>
-                                <div class="portfolio-item-category">Photography</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
-            </div>
-            <div class="nk-gap-4 mt-15"></div>
+
+            <div class="nk-gap-4"></div>
         </div>
-        <!-- END: Portfolio -->
 
-        <!-- START: Reviews -->
-        <div class="nk-box bg-dark-1">
-            <div class="bg-image bg-image-parallax" style="background-image: url('assets/images/bg-pattern.jpg');"></div>
-            <div class="nk-gap-5 mnt-6"></div>
-            <div class="nk-gap-3"></div>
-            <div class="container-fluid">
-                <!-- START: Carousel -->
-                <div class="nk-carousel nk-carousel-all-visible text-white" data-autoplay="18000" data-dots="true">
-                    <div class="nk-carousel-inner">
-                        <div>
-                            <div>
-                                <blockquote class="nk-blockquote-style-1 text-white">
-                                    <p>Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</p>
-                                    <cite>Michael Hopkins</cite>
-                                </blockquote>
-                                <div class="nk-gap-3 mt-10"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <blockquote class="nk-blockquote-style-1 text-white">
-                                    <p>Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</p>
-                                    <cite>Michael Hopkins</cite>
-                                </blockquote>
-                                <div class="nk-gap-3 mt-10"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <blockquote class="nk-blockquote-style-1 text-white">
-                                    <p>Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</p>
-                                    <cite>Michael Hopkins</cite>
-                                </blockquote>
-                                <div class="nk-gap-3 mt-10"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END: Carousel -->
-            </div>
-            <div class="nk-gap-4 mt-3"></div>
+        <!-- START: Pagination -->
+        <div class="nk-pagination nk-pagination-center">
+            <a href="#">Load More Works</a>
         </div>
-        <!-- END: Reviews -->
-
-        <!-- START: Partners -->
-        <div class="bg-white">
-            <div class="container">
-                <div class="nk-carousel-2 nk-carousel-x4 nk-carousel-no-margin nk-carousel-all-visible">
-                    <div class="nk-carousel-inner">
-                        <div>
-                            <div>
-                                <div class="nk-box-1">
-                                    <img src="assets/images/partner-logo-1-dark.png" alt="" class="nk-img-fit">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div class="nk-box-1">
-                                    <img src="assets/images/partner-logo-2-dark.png" alt="" class="nk-img-fit">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div class="nk-box-1">
-                                    <img src="assets/images/partner-logo-3-dark.png" alt="" class="nk-img-fit">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div class="nk-box-1">
-                                    <img src="assets/images/partner-logo-4-dark.png" alt="" class="nk-img-fit">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div class="nk-box-1">
-                                    <img src="assets/images/partner-logo-5-dark.png" alt="" class="nk-img-fit">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div class="nk-box-1">
-                                    <img src="assets/images/partner-logo-6-dark.png" alt="" class="nk-img-fit">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div class="nk-box-1">
-                                    <img src="assets/images/partner-logo-7-dark.png" alt="" class="nk-img-fit">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div class="nk-box-1">
-                                    <img src="assets/images/partner-logo-8-dark.png" alt="" class="nk-img-fit">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END: Partners -->
-
-        <!-- START: Blog -->
-        <div class="nk-box bg-gray-1" id="blog">
-            <div class="nk-gap-4 mt-5"></div>
-
-            <h2 class="text-xs-center display-4">Latest Blog</h2>
-
-            <div class="nk-gap mnt-6"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="text-xs-center">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nk-gap-2 mt-12"></div>
-            <div class="container">
-                <!-- START: Carousel -->
-                <div class="nk-carousel-2 nk-carousel-x2 nk-carousel-no-margin nk-carousel-all-visible nk-blog-isotope" data-dots="true">
-                    <div class="nk-carousel-inner">
-
-
-                        <div>
-                            <div>
-                                <div class="pl-15 pr-15">
-                                    <div class="nk-blog-post">
-                                        <div class="nk-post-thumb">
-                                            <a href="blog-single.html">
-                                                <img src="assets/images/post-1-mid.jpg" alt="" class="nk-img-stretch">
-                                            </a>
-                                            <div class="nk-post-category"><a href="#">Nature</a></div>
-                                        </div>
-                                        <h2 class="nk-post-title h4"><a href="blog-single.html">Something I need to tell you</a></h2>
-
-                                        <div class="nk-post-date">
-                                            September 18, 2016
-                                        </div>
-
-                                        <div class="nk-post-text">
-                                            <p>That female isn't midst divide kind upon seas lights greater green creature lights brought.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="nk-gap-1"></div>
-                            </div>
-                        </div>
-
-
-                        <div>
-                            <div>
-                                <div class="pl-15 pr-15">
-                                    <div class="nk-blog-post">
-                                        <div class="nk-post-thumb">
-                                            <a href="blog-single.html">
-                                                <img src="assets/images/post-3-mid.jpg" alt="" class="nk-img-stretch">
-                                            </a>
-                                            <div class="nk-post-category"><a href="#">Nature</a></div>
-                                        </div>
-                                        <h2 class="nk-post-title h4"><a href="blog-single.html">The History of Nature</a></h2>
-
-                                        <div class="nk-post-date">
-                                            August 27, 2016
-                                        </div>
-
-                                        <div class="nk-post-text">
-                                            <p>Third is fly. From one under in itself two waters, all own. Said male shall greater own grass.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="nk-gap-1"></div>
-                            </div>
-                        </div>
-
-
-                        <div>
-                            <div>
-                                <div class="pl-15 pr-15">
-                                    <div class="nk-blog-post">
-                                        <div class="nk-post-thumb">
-                                            <a href="blog-single.html">
-                                                <img src="assets/images/post-4-mid.jpg" alt="" class="nk-img-stretch">
-                                            </a>
-                                            <div class="nk-post-category"><a href="#">Branding</a></div>
-                                        </div>
-                                        <h2 class="nk-post-title h4"><a href="blog-single.html">Are you doing the Right Way?</a></h2>
-
-                                        <div class="nk-post-date">
-                                            August 14, 2016
-                                        </div>
-
-                                        <div class="nk-post-text">
-                                            <p>Which all, morning isn't. Female and own living dry, and morning lesser first he stars under years thing.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="nk-gap-1"></div>
-                            </div>
-                        </div>
-
-
-                        <div>
-                            <div>
-                                <div class="pl-15 pr-15">
-                                    <div class="nk-blog-post">
-                                        <div class="nk-post-thumb">
-                                            <a href="blog-single.html">
-                                                <img src="assets/images/post-5-mid.jpg" alt="" class="nk-img-stretch">
-                                            </a>
-                                            <div class="nk-post-category"><a href="#">Design</a></div>
-                                        </div>
-                                        <h2 class="nk-post-title h4"><a href="blog-single.html">Ten things about Photography</a></h2>
-
-                                        <div class="nk-post-date">
-                                            August 14, 2016
-                                        </div>
-
-                                        <div class="nk-post-text">
-                                            <p>Be forth, god for rule face abundantly all our two winged made. Is whose morning female.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="nk-gap-1"></div>
-                            </div>
-                        </div>
-
-
-                        <div>
-                            <div>
-                                <div class="pl-15 pr-15">
-                                    <div class="nk-blog-post">
-                                        <div class="nk-post-thumb">
-                                            <a href="blog-single.html">
-                                                <img src="assets/images/post-6-mid.jpg" alt="" class="nk-img-stretch">
-                                            </a>
-                                            <div class="nk-post-category"><a href="#">Design</a></div>
-                                        </div>
-                                        <h2 class="nk-post-title h4"><a href="blog-single.html">Why you should Always First</a></h2>
-
-                                        <div class="nk-post-date">
-                                            August 14, 2016
-                                        </div>
-
-                                        <div class="nk-post-text">
-                                            <p>Lights give have herb. First. Seed lesser his a fruit. Stars good divide fish appear don't, third deep.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="nk-gap-1"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- END: Carousel -->
-            </div>
-            <div class="nk-gap-5 mt-20"></div>
-        </div>
-        <!-- END: Blog -->
-
-        <!-- START: Contact Info -->
-        <div class="container" id="contact">
-            <div class="nk-gap-5"></div>
-            <div class="row vertical-gap">
-                <div class="col-lg-5">
-                    <!-- START: Info -->
-                    <h2 class="display-4">Contact Info:</h2>
-                    <div class="nk-gap mnt-3"></div>
-
-                    <p>Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.</p>
-
-                    <ul class="nk-contact-info">
-                        <li>
-                            <strong>Address:</strong> 10111 Santa Monica Boulevard, LA</li>
-                        <li>
-                            <strong>Phone:</strong> +44 987 065 908</li>
-                        <li>
-                            <strong>Email:</strong> info@Example.com</li>
-                        <li>
-                            <strong>Fax:</strong> +44 987 065 909</li>
-                    </ul>
-                    <!-- END: Info -->
-                </div>
-                <div class="col-lg-7">
-                    <!-- START: Form -->
-                    <form action="#" class="nk-form nk-form-ajax">
-                        <div class="row vertical-gap">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control required" name="name" placeholder="Your Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control required" name="email" placeholder="Your Email">
-                            </div>
-                        </div>
-
-                        <div class="nk-gap-1"></div>
-                        <input type="text" class="form-control required" name="title" placeholder="Your Title">
-
-                        <div class="nk-gap-1"></div>
-                        <textarea class="form-control required" name="message" rows="8" placeholder="Your Comment" aria-required="true"></textarea>
-                        <div class="nk-gap-1"></div>
-                        <div class="nk-form-response-success"></div>
-                        <div class="nk-form-response-error"></div>
-                        <button class="nk-btn">Send Message</button>
-                    </form>
-                    <!-- END: Form -->
-                </div>
-            </div>
-            <div class="nk-gap-5"></div>
-        </div>
-        <!-- END: Contact Info -->
-
+        <!-- END: Pagination -->
 
 
 
@@ -801,9 +982,45 @@
     <!-- START: Scripts -->
 
     <script src="assets/js/combined.js"></script>
-    
+
     <!-- END: Scripts -->
 
+    <!-- Portfolio Image Modal -->
+    <div id="portfolioModal"
+        style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.8); align-items:center; justify-content:center;">
+        <span id="portfolioModalClose"
+            style="position:absolute; top:30px; right:50px; color:#fff; font-size:40px; cursor:pointer;">&times;</span>
+        <img id="portfolioModalImg" src="" alt="Portfolio Image"
+            style="max-width:90vw; max-height:80vh; box-shadow:0 0 20px #000;">
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Open modal on click
+            document.querySelectorAll('.portfolio-modal-trigger').forEach(function (el) {
+                el.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    var imgSrc = el.getAttribute('data-img');
+                    if (imgSrc) {
+                        document.getElementById('portfolioModalImg').src = imgSrc;
+                        document.getElementById('portfolioModal').style.display = 'flex';
+                    }
+                });
+            });
+
+            // Close modal on click of close button or outside image
+            document.getElementById('portfolioModalClose').onclick = function () {
+                document.getElementById('portfolioModal').style.display = 'none';
+                document.getElementById('portfolioModalImg').src = '';
+            };
+            document.getElementById('portfolioModal').onclick = function (e) {
+                if (e.target === this) {
+                    this.style.display = 'none';
+                    document.getElementById('portfolioModalImg').src = '';
+                }
+            };
+        });
+    </script>
 
 </body>
 
